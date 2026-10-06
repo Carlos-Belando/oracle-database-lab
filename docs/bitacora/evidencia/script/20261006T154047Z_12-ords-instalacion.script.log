@@ -1,0 +1,56 @@
+== 1. Java (ORDS requiere 17 o 21)
+openjdk version "21.0.12.1" 2026-08-18
+== 2. Programa ORDS en /opt/oracle/ords
+
+ORDS: Release 26.3 Production on Tue Oct 06 15:46:45 2026
+
+Copyright (c) 2010, 2026, Oracle.
+
+Configuration:
+  /etc/ords/config
+
+Oracle REST Data Services 26.3.0.r2721811
+== 3. Instalacion en FREEPDB1 (no interactiva)
+
+ORDS: Release 26.3 Production on Tue Oct 06 15:46:48 2026
+
+Copyright (c) 2010, 2026, Oracle.
+
+Configuration:
+  /etc/ords/config
+
+Oracle REST Data Services - Non-Interactive Install
+
+Retrieving information.
+The setting named: db.connectionType was set to: basic in configuration: default
+The setting named: db.hostname was set to: localhost in configuration: default
+The setting named: db.port was set to: 1521 in configuration: default
+The setting named: db.servicename was set to: FREEPDB1 in configuration: default
+The setting named: db.username was set to: ORDS_PUBLIC_USER in configuration: default
+The setting named: db.password was set to: ****** in configuration: default
+The setting named: feature.sdw was set to: true in configuration: default
+The global setting named: database.api.enabled was set to: true
+The setting named: restEnabledSql.active was set to: true in configuration: default
+The setting named: security.requestValidationFunction was set to: ords_util.authorize_plsql_gateway in configuration: default
+2026-10-06T15:46:52.797Z INFO        Installing Oracle REST Data Services version 26.3.0.r2721811 in FREEPDB1
+2026-10-06T15:46:54.872Z INFO        ... Verified database prerequisites
+2026-10-06T15:46:56.172Z INFO        ... Created Oracle REST Data Services proxy user
+2026-10-06T15:46:57.247Z INFO        ... Created Oracle REST Data Services schema
+2026-10-06T15:46:59.484Z INFO        ... Granted privileges to Oracle REST Data Services
+2026-10-06T15:47:06.842Z INFO        ... Created Oracle REST Data Services database objects
+2026-10-06T15:47:31.182Z INFO        Completed installation for Oracle REST Data Services version 26.3.0.r2721811. Elapsed time: 00:00:38.239 
+
+2026-10-06T15:47:31.192Z INFO        Log file written to /var/log/ords/ords_install_2026-10-06_154652_33859.log
+2026-10-06T15:47:31.207Z INFO        To run in standalone mode, use the ords serve command:
+2026-10-06T15:47:31.207Z INFO        ords --config /etc/ords/config serve
+2026-10-06T15:47:31.207Z INFO        Visit the ORDS Documentation to access tutorials, developer guides and more to help you get started with the new ORDS Command Line Interface (http://oracle.com/rest).
+== 4. Puerto HTTP del modo standalone
+
+ORDS: Release 26.3 Production on Tue Oct 06 15:47:35 2026
+
+Copyright (c) 2010, 2026, Oracle.
+
+Configuration:
+  /etc/ords/config
+
+The global setting named: standalone.http.port was set to: 8080
