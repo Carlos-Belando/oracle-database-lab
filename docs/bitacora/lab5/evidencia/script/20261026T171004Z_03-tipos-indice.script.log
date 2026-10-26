@@ -1,0 +1,4 @@
+SP2-0310: unable to open file "scripts/lab5/03-tipos-indice.sql"
+Help: https://docs.oracle.com/error-help/db/sp2-0310/
+SP2-0734: unknown command beginning "docker exe..." - rest of line ignored.
+Help: https://docs.oracle.com/error-help/db/sp2-0734/
